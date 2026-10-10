@@ -1,0 +1,83 @@
+body{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.main{
+ background-image: url("/images/torshov.jpg"); 
+ background-size: cover;
+ background-repeat: no-repeat;
+ border-radius: 10px 10px 0 0;
+ display: block;
+ height: 300px;
+ text-align: center;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#trou-main{
+    background-color:cadetblue;
+    font-size:14px;
+    color:whitesmoke;
+    width: 100px;
+    margin: 50px auto; 
+    text-shadow: -2px 2px 20px black;  
+}
+#trou-sub{
+    background-color:darkblue;
+    color:whitesmoke;
+    width: 300px;
+    margin: -40px auto;   
+    text-shadow: -2px 2px 20px black;
+}
+
+.sub1{
+   background-color:darkseagreen;
+   height: 300px;
+   margin-bottom: 10px;
+   text-align: center;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+     
+}
+#s1-title{
+    margin-bottom:20px;
+    margin-top: 20px;
+    
+}
+#park,#theatre,#sports{
+    border-radius: 100px;
+}
+
+#pstitle,#tstitle,#sstitle{
+    margin-top: -10px;
+}
+
+.activities{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.guide{
+    background-color: antiquewhite;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border-bottom: 6px solid #d8cefe;
+    text-align: center;
+   
+}
+.card{
+    display: flex;
+    align-items: center;     
+}
+#me{
+    margin: 10px;
+    padding: 10px;
+    
+}
